@@ -1,8 +1,34 @@
-# React + Vite
+# TVShowTracker React SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Single Page Application for tracking TV shows using the TVShowTracker API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse top TV shows
+- View detailed information about shows, seasons, and episodes
+- User registration and login
+- Personal watchlist management
+- User profile customization
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+
+npm install
+
+## Folder Structure
+src/
+components/
+pages/
+services/
+App.jsx
+index.jsx
+
+
+## UI
+![image](https://github.com/user-attachments/assets/7c13cd48-dac0-4f32-800a-9716e29c31c7)
+
+![image](https://github.com/user-attachments/assets/6d71594e-9afc-45b6-b9ea-66d767deb5aa)
+
+
