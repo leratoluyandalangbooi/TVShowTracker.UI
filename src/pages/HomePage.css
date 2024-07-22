@@ -1,0 +1,31 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 60px); /* Adjust 60px to match your header height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.page-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.loading, .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+
+/* Ensure ShowList takes up remaining space */
+.home-page > div:last-child {
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .home-page {
+        padding: 10px;
+    }
+}
