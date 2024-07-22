@@ -1,5 +1,3 @@
-# TVShowTracker.UI
-
 # TVShowTracker React SPA
 
 A React-based Single Page Application for tracking TV shows using the TVShowTracker API.
